@@ -3,7 +3,7 @@ from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 import numpy as np
-logo_path='data\my_logo_2.png'
+logo_path='app_images\my_logo_2.png'
 
 st.set_page_config('Potato Disease Recognation',logo_path)
 # Load the model and classes
