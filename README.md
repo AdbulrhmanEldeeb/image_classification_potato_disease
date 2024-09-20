@@ -44,7 +44,6 @@ You can find the related notebook on Kaggle:
 - **View the result**: The predicted disease (Healthy, Early Blight, or Late Blight) will be displayed below the uploaded image.
 
 ## Project Structure
-    ```bash 
     ├── app.py                     # Streamlit app code
     ├── models
     │   ├── cnn_model.keras         # Pre-trained CNN model
@@ -53,7 +52,6 @@ You can find the related notebook on Kaggle:
     │   └── potato_disease.jfif     # Potato disease image for the sidebar
     ├── requirements.txt            # Dependencies
     └── README.md                   # Project README
-    ```
 ## Models
 The app uses two deep learning models:
 - **Custom CNN**: A Convolutional Neural Network trained on 20% of the PlantVillage dataset, specifically for potato diseases. The CNN was designed for lightweight performance while maintaining high accuracy.
